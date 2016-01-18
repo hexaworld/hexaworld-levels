@@ -1,0 +1,27 @@
+{
+  "name": "hexaworld-levels",
+  "version": "0.0.1",
+  "description": "Levels for hexaworld",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hexaworld/hexaworld-levels"
+  },
+  "keywords": [
+    "hexaworld",
+    "levels",
+    "game"
+  ],
+  "author": "Andrew Osheroff <andrewosh@gmail.com> (http://andrewosh.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hexaworld/hexaworld-levels/issues"
+  },
+  "homepage": "https://github.com/hexaworld/hexaworld-levels",
+  "dependencies": {
+    "lodash": "^4.0.0"
+  }
+}
