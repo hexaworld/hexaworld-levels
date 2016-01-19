@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browserify": {
+    "transform": [
+      "bulkify"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hexaworld/hexaworld-levels"
@@ -22,6 +27,9 @@
   },
   "homepage": "https://github.com/hexaworld/hexaworld-levels",
   "dependencies": {
-    "lodash": "^4.0.0"
+    "bulk-require": "^0.2.1"
+  },
+  "devDependencies": {
+    "bulkify": "^1.1.1"
   }
 }
